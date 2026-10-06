@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "fanvue": {
+      "type": "http",
+      "url": "https://mcp.fanvue.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@source "../../node_modules/@fanvue/ui";
+@import "@fanvue/ui/styles/theme.css";
+
+html,
+body {
+  background: var(--color-background-primary);
+  color: var(--color-content-primary);
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Prices and counts shouldn't jitter as they change. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
